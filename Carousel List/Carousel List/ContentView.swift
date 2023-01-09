@@ -33,3 +33,11 @@ struct Eli: View {
         }
     }
 }
+
+struct Movie : Identifiable {
+    
+    var id: Int
+    var name: String
+    var image: String
+    var rating: Int
+}
