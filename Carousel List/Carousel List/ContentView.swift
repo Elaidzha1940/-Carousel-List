@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+   
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Eli()
         }
-        .padding()
     }
 }
 
@@ -43,11 +41,13 @@ struct Eli: View {
                     Spacer()
                 }
                 .padding(.horizontal)
+                
                 TextField("Search", text: self.$search)
                     .padding(.vertical, 10)
                     .padding(.horizontal)
                     .background(Color.black.opacity(0.07))
                     .cornerRadius(12)
+                    .padding(.horizontal)
             }
             .padding(.vertical)
         }
