@@ -44,13 +44,13 @@ struct Movie : Identifiable {
 
 var data = [
 
-    Game(id: 0, name: "", image: "", rating: 3)
-    Game(id: 1, name: "", image: "", rating: 1)
-    Game(id: 2, name: "", image: "", rating: 5)
-    Game(id: 3, name: "", image: "", rating: 7)
-    Game(id: 4, name: "", image: "", rating: 3)
-    Game(id: 5, name: "", image: "", rating: 4)
-    Game(id: 6, name: "", image: "", rating: 2)
-    Game(id: 7, name: "", image: "", rating: 5)
+    Game(id: 0, name: "Poker Face", image: "M0", rating: 4)
+    Game(id: 1, name: "Free State of Jones", image: "M1", rating: 2)
+    Game(id: 2, name: "News Of The World", image: "M2", rating: 6)
+    Game(id: 3, name: "The Women King", image: "M3", rating: 5)
+    Game(id: 4, name: "The Harder They Fall", image: "M4", rating: 3)
+    Game(id: 5, name: "Thirteen Lives", image: "M5", rating: 2)
+    Game(id: 6, name: "TILL", image: "M6", rating: 7)
+    Game(id: 7, name: "Emancipation", image: "M7", rating: 1)
 ]
 
